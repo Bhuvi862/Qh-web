@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <title>Sugar Cosmetics</title>
+</head>
+<style type="text/css">
+  body{
+    color: white;
+  }
+.mySlides {display:none;}
+
+  .mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+<body>
+ <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  
+  <script src="main.js">
+  </script>
+  <!-- Showcase & Nav -->
+  <div id="showcase">
+    <header>
+      <nav class='cf'>
+        <ul class='cf'>
+          <li class="hide-on-small">
+          <li>
+            <a href='#showcase'>Test Look</a>
+          </li>
+          <li>
+            <a href='#music'>Super Saver</a>
+          </li>
+          <li>
+            <a href='#video'>Clearsales</a>
+          </li>
+          <li>
+            <a href='#gift-cards'>Gift Cards</a>
+          </li>
+        </ul>
+        <a href='#' id='openup'>Sugar</a>
+      </nav>
+    </header>
+    <div class="section-main container">
+            
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Music Section -->
+  <section id="music" class="section">
+    <div class="container">
+      <h1 class="section-head">
+       Newly Launched THIS or THAT?
+      </h1>
+      <h3>Top Picks Of The Week</h3>
+      <p class="lead">Pick a hot deal dual eyeshadow which tends your eye for a natural glittery eye look.Have a trail with your skin color and test now</p>
+      <a href="#" id=Uname class="btn btn-primary mb">TEST THE LOOK</a>
+      <img src="https://i.ytimg.com/vi/ds6517THTtg/maxresdefault.jpg" alt="">
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Video Section -->
+  <section id="video" class="section bg-light">
+    <div class="container">
+      <h3>SUPER SAVER...All in one kit.</h3>
+      <p class="lead">All in one kit benifits you with all the sugar cosmetic collections such as lipcare,skincare,foundation,concealer etc...Enjoy Your Weekend Offer</p>
+      <a href="#" id=Uname class="btn btn-secondary">Read More</a>
+      <img src="http://thehardcopy.co/wp-content/uploads/Sugar-makeup-products-1200x720.jpg" alt="">
+    </div>
+  </section>
+
+
+
+  <!-- Entertainment Section -->
+  
+<h2 class="w3-center">Yearly Clearance Sale</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://cdn.static-zoutons.com/images/originals/blog/sugar_offers-03_1583559259.png" style="width:100%">
+  <img class="mySlides" src="https://cdn.grabon.in/gograbon/images/web-images/uploads/1618554798655/sugar-cosmetics-coupons.jpg" style="width:100%">
+  <img class="mySlides" src="https://thebuyerslogic.com/wp-content/uploads/2021/03/sugar-cosmetics-coupon-codes-sugar-cosmetics-discount-codes-sugar-cosmetics-promo-codes.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+  <!-- Gift Card Section -->
+  <section id="gift-cards" class="section bg-light">
+    <div class="container">
+      <div class="gift-cards">
+        <div>
+          <img src="https://www.graboffersindia.com/wp-content/uploads/2020/08/Sugar-cosmetics-discount-code.png" alt="">
+        </div>
+        <div>
+          <h2>Gift Cards</h2>
+          <p>
+            Are you all ready for the gift bounty??...Yes it is the end of season sale..We are extremely excited to launch a free gifts cards...Grab Now
+          </p>
+          <p>Already have an Sugar bounty Gift Card?</p>
+          <hr>
+          <a href="#" class="text-secondary">
+            <i class="fas fa-chevron-right"></i> Redeem
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-cols">
+        <ul>
+          <li>Shop & Learn</li>
+          <li>
+            <a href="#">Skincare</a>
+          </li>
+          <li>
+            <a href="#">Lipcare</a>
+          </li>
+          <li>
+            <a href="#">eyemakeup</a>
+          </li>
+          <li>
+            <a href="#">Gift Cards</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>Sugar Store</li>
+          <li>
+            <a href="#">Find a Store</a>
+          </li>
+          <li>
+            <a href="#">Today at Sugar</a>
+          </li>
+          <li>
+            <a href="#">Sugar Camp</a>
+          </li>
+          <li>
+            <a href="#">Glam products</a>
+          </li>
+          
+        </ul>
+
+        <ul>
+          <li>Cosmetics</li>
+          <li>
+            <a href="#">Lipstick</a>
+          </li>
+          <li>
+            <a href="#">Foundation</a>
+          </li>
+          <li>
+            <a href="#">Eyeliner</a>
+          </li>
+          <li>
+            <a href="#">Concealer</a>
+          </li>
+          
+        </ul>
+
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      Copyright &copy; 2022 Sugar cosmetics
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
+
